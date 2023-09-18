@@ -1,0 +1,74 @@
+
+/* Apply styles to the body */
+body {
+    background-color: #333; 
+    color: white; 
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #ff9900;
+}
+
+/* Style the paragraph text */
+p {
+    margin-bottom: 20px;
+}
+
+/* Style the links */
+a {
+    color: #ff9900; 
+    text-decoration: none; 
+    border: solid 3px rgb(8, 8, 8);
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+/* Style the iframe */
+iframe {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+    display: block;
+}
+
+/* Style the list items */
+ul {
+    list-style-type: square; 
+    margin-left: 20px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ff9900; 
+}
+
+th {
+    background-color: #222; /* Table header background color */
+    color: #ff9900; /* Table header text color */
+}
+
+/* Center the registration links */
+.center-links {
+    text-align: center;
+    margin-top: 20px; /* Add space above the links */
+}
+
+/* Style the footer links */
+.center-links a {
+    margin: 0 10px; /* Add space between links */
+}

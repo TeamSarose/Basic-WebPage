@@ -1,0 +1,82 @@
+/* Apply styles to the body */
+body {
+    background-color: #333; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #ff9900; 
+}
+
+/* Center align the content */
+p {
+    text-align: center;
+}
+
+/* Style the form container */
+form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #222; 
+    border-radius: 25px;
+}
+
+/* Style the form elements */
+form table {
+    width: 100%;
+}
+
+form table td {
+    padding: 10px 0;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"],
+form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333; 
+    color: white; 
+    margin-bottom: 10px;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form input[type="reset"],
+form input[type="submit"] {
+    background-color: #ff9900; /* Button background color */
+    color: #222; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="reset"]:hover,
+form input[type="submit"]:hover {
+    background-color: #ff7300;
+}
+
+/* Style the links */
+a {
+    color: #f0a83c;
+    text-decoration: none;
+    border: solid 3px rgb(8, 8, 8);
+    border-radius: 5px;
+    background-color: #000000;
+    
+}
+
+a:hover {
+    background-color: #ff7300 ; /* Add underline on hover */
+}
